@@ -20,7 +20,7 @@ Our aim is to use data collated from instagram posts from fashion influencers ch
 ---
 ## 1. Data Preparation and Cleaning
 In this file, we prepped and cleaned our dataset to work with it in the subsequent files. This involved:
-> - Sanity chekcs for duplicate and missing values
+> - Sanity checks for duplicate and missing values
 > - Isolating numeric variables which we needed to work with in our dataset
 > - Segregating the entire dataset into 4 sections; each uniqe brand category for deeper, specific exploration into each
 > - Removing outliers by using a personalized function
