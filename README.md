@@ -24,7 +24,7 @@ In this file, we prepped and cleaned our dataset to work with it in the subseque
 > - Isolating numeric variables which we needed to work with in our dataset
 > - Segregating the entire dataset into 4 sections; each uniqe brand category for deeper, specific exploration into each
 > - Removing outliers by using a personalized function
-> - Conversion of each dataframe to sepaarte CSV files
+> - Conversion of each dataframe to separate CSV files
 ## 2. Exploratory Data Analysis
 In this file, we conducted a prelimiary exploration into our dataset to further determine which direction to take, which variables have correlations worth exploring & visualizing our conclusions. We accomplished this by:
 > - Univariate exploration of our response variable - 'Likes' (Number of likes on a post)
@@ -39,7 +39,7 @@ In this file, we try outlier removal by anomaly detection using the isolating fo
 > - Computing correlations to likes in each brand category with this new cleaned dataset
 > - Identifying top 4 variables with strongest correlations
 
-By producing a cleaned dataset and computing correlations, we've compiled 3 datasets - the raw one and two cleaned (using IQR and isolated forests technique) and we've found correlations varied significantly accross the three and that the removal of outliers may have been responsibly for the decrease in the strength of correlations between followers and likes. Our decision to stick with the original dataset was due to the consistent top correlations with variables as well as the fact that the cleaned dataset missed extremes that may explain data behaviours for user engagement which may be key to understanding which metric is most valuable.
+By producing a cleaned dataset and computing correlations, we've compiled 3 datasets - the raw one and two cleaned (using IQR and isolated forests technique) and we've found correlations varied significantly across the three and that the removal of outliers may have been responsibly for the decrease in the strength of correlations between followers and likes. Our decision to stick with the original dataset was due to the consistent top correlations with variables as well as the fact that the cleaned dataset missed extremes that may explain data behaviours for user engagement which may be key to understanding which metric is most valuable.
 ## 4. Insights from relationships in raw dataset
 In this file, we conducted bivariate exploration into the top two variables - Followers & Comments - with Likes for each brand category and executed multiple kind of regression models for further analysis. This consisted of:
 
